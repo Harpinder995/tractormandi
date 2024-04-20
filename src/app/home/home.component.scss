@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+.second{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.main{
+    background-color: #F5F5F7;
+    height: 100vh;
+    
+}
+.main h2{
+    padding: 100px 120px;
+    color: #6E6E73;
+    font-size: 2.6em;
+}
+.main span{
+    color: #000;
+}
+.location{
+    
+   padding-top:100px ;
+   padding-right: 120px;
+}
+ h3{
+    font-size: 20px;
+   //padding: 100px 80px;
+}
+h3 a{
+    text-decoration: none;
+
+}
+.icon{
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+
+  
+  .card {
+    min-width: 250px;
+    height: 240px;
+    margin: 10px;
+    background-color: #F5F5F7;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  img{
+    width: 250px;
+    height: 200px;
+    
+    object-fit: fill;
+  }
+  .title{
+    text-align: center;
+    background-color: #F5F5F7;
+
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  .title span{
+    color:green;
+  }
