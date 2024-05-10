@@ -13,7 +13,7 @@
     height: 100vh;
     
 }
-.main h2{
+.titleh{
     padding: 100px 120px;
     color: #6E6E73;
     font-size: 2.6em;
@@ -39,22 +39,18 @@ h3 a{
     height: 100%;
     width: 100%;
 }
-
-.slider{
-  margin: 5px;
-  width: 90vw;
-}
   
   .card {
-    min-width: 210px;
-    height: 180px;
+    min-width: 190px;
+    height: 190px;
     margin: 5px;
     background-color: #F5F5F7;
     border-radius: 5px;
     display: inline-block;
   }
+
   img{
-    width: 210px;
+    width: 190px;
     height: 160px;
     
     object-fit: fill;
@@ -76,3 +72,97 @@ h3 a{
   .hide::-webkit-scrollbar{
     display: none;
   }
+
+.sidebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.gform{
+margin-top: -20px;
+font-weight: bold;
+font-size: 30px;
+padding: 100px;
+color: #000;
+}
+
+.form span{
+  color: #6E6E73;
+}
+
+.gform span{
+  color: #6E6E73;
+  
+}
+/*form styles*/
+#msform {
+  width: 500px;
+  margin: 10px auto;
+  height: 400px;
+
+  
+}
+
+.fs-title {
+  
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 8px;
+  
+ 
+}
+.catedown{
+  margin-bottom: 9px;
+}
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;
+  
+}
+
+#msform input, #msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+  width: 100px;
+  background: #27AE60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+
+.action-button{
+  margin-top: 5px;
+}
+
+
+
+

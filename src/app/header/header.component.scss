@@ -5,20 +5,17 @@
 }
 .navbar{
     background-color: #F5F5F7;
-    height: 50px;
 }
 
 
 .navbar ul li  {
     list-style: none;
     text-decoration: none;
-    justify-content: center;
-    text-align: center ;
     padding: 20px;
-    //font-weight: bold;
+    font-weight: 500;
 
 }
-.navbar a{
+ ul li a{
     color: #000;
-    text-decoration: none;
+    
 }

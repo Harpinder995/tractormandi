@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.card{
+  width: 300px;
+  height:260px ;
+  margin-left: 10px;
+}
+.image{
+  display: flex;
+  justify-content: end;
+  width: 800px;
+  height: 190px;
+ margin-left: 50px;
+ 
+}
+#add{
+padding: 4px;
+  height: 190px;
+  width: 295px;
+}
+.card span{
+  font-size: 15px;
+
+}
+.leftbox{
+  padding: 20px;
+}
+.leftbox h2{
+  font-size: 13px;
+  margin: 15px;
+  color: #97A1B5;
+}
+.card1{
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  margin: 10px;
+width: 280px;
+height: 90px;
+
+}
+.card1 h3{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.card1 p{
+  margin-top: -7px;
+  color: #97A1B5;
+}
+.stcard{
+
+ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+ margin-right: 15px;
+}
+.stcard h2{
+  text-align: center;
+}
+.card2{
+  background-color:#DAE8F9 ;
+  margin-top: 15px;
+  height: 270px;
+  margin-right: 15px;
+}
+.card2 h3{
+ color: blue;
+padding-top: 30px;
+font-size: 30px;
+margin-bottom: 20px;
+ 
+}
+.card2 span{
+ 
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  
+
+
+}
+.card2 p{
+  color:#B3BFCD ;
+  font-size: 16px;
+  padding: 15px;
+}
+.card3{
+ 
+  background-color: white;
+  width: 250px;
+  height: 70px;
+margin-left: 80px;
+border-radius: 3px;
+
+
+}
+.card3 h3{
+  font-size: 15px;
+  margin-top: -35px;
+color: #000;
+padding: 20px;
+
+}
+.trwords h2{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 23px;
+
+}
+.outcard{
+  background-color: #003D83;
+ margin: 10px;
+  border-radius: 11px;
+
+  padding: 15px;
+}
+.ncard h3{
+color: white;
+text-align: center;
+padding-top: 5px;
+font-family:  "merriweatherbold_italic', 'NotoDevanagariBold', 'NotoNastaliqUrdu'";
+}
+.ncard h4{
+  color: #97c8ff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+}
+.ncard p{
+  color: white;
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn{
+  margin-top: 20px;
+  background-color: white;
+  color: blue;
+ width: 130px;
+ height: 50px;
+  display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.btn a{
+  text-decoration: none;
+  
+ 
+
+}
+
+.card {
+  min-width: 190px;
+  height: 190px;
+  margin: 5px;
+  background-color: #F5F5F7;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+img{
+  width: 190px;
+  height: 160px;
+  
+  object-fit: fill;
+}
+.title{
+  text-align: center;
+  background-color: #F5F5F7;
+
+  margin-top: 5px;
+  font-weight: bold;
+}
+.title span{
+  color:green;
+}
+.hide{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide::-webkit-scrollbar{
+  display: none;
+}
+
+.sidebtn{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}

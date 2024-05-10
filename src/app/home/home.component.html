@@ -2,10 +2,10 @@
 
 <div class="main">
     <div class="row">
-        <div class="col col-lg-8 md-8">
-            <h2><span>AgriMarket.</span>The best way to buy the <br>equipments you want.</h2>
+        <div class="col col-lg-8 col-md-8">
+            <h2 class="titleh"><span>AgriMarket.</span>The best way to buy the <br>equipments you want.</h2>
         </div>
-        <div class="col col-lg-4 md-4">
+        <div class="col col-lg-4 col-md-4">
             <div class="location d-flex justify-content-end">
                 <div class=" d-flex justify align-items-end">
                     <mat-icon class="icon" aria-hidden="false" aria-label="Example home icon">location_on</mat-icon>
@@ -18,47 +18,109 @@
             </div>
         </div>
     </div>
-
-    <div class="row slider hide" style="overflow-x: scroll;">
-
-        <div class="d-flex flex-row ">
-            <div class="card">
-                <img src="/assets/images/swaraj.webp" />
-                <div class="title">Tractors </div>
-            </div>
-            
-            <div class="card">
-                <img src="/assets/images/trolley.jpeg" />
-                <div class="title">Trolley </div>
-            </div>
-            <div class="card">
-                <img src="/assets/images/seeder.jpg" />
-                <div class="title"> Seeder  </div>
-            </div>
-            <div class="card">
-                <img src="/assets/images/cultivator.gif" />
-                <div class="title">Cultivator</div>
-            </div>
-            <div class="card">
-                <img src="/assets/images/spray.webp" />
-                <div class="title">Spray Pump </div>
-            </div>
-            <div class="card">
-                <img src="/assets/images/harrow.jpeg" />
-                <div class="title"> Harrow </div>
-            </div>
-            <div class="card">
-                <img src="/assets/images/harvester.webp" />
-                <div class="title">Harvester</div>
-            </div>
-   
-
+    <div class="row">
+        <div class="sidebtn  col-lg-1 col-md-1">
+            <mat-icon>keyboard_arrow_left</mat-icon>
+        </div>
+        <div class="col-lg-10 col-md-10 ">
             
 
+            <div class=" slider hide " style="overflow-x: scroll;">
+
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card">
+                        <img src="/assets/images/swaraj.webp" />
+                        <div class="title">Tractors </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/trolley.jpeg" />
+                        <div class="title">Trolley </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/seeder.jpg" />
+                        <div class="title"> Seeder </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/cultivator.gif" />
+                        <div class="title">Cultivator</div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/spray.webp" />
+                        <div class="title">Spray Pump </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/harrow.jpeg" />
+                        <div class="title"> Harrow </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/harvester.webp" />
+                        <div class="title">Harvester</div>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
+        <div class="sidebtn col-lg-1 col-md-1">
+            <mat-icon>keyboard_arrow_right</mat-icon>
+        </div>
+
     </div>
+
+    <div class="col col lg-12 col-md-12">
+     
+    <div class="col lg-1 col-md-1"></div>
+    <div class="col lg-5 col-md-5">
+        <div class="gform">
+            Want to sell any equipment ? <span >Send us using below form
+               </span> <mat-icon>arrow_drop_down</mat-icon>
+        </div>
+        <div class="col col lg-12 col-md-12">
+            <div class="row">
+            <div class="col lg-1 col-md-1"></div>
+            <div class="col lg-5 col-md-5">
+        
+        <form id="msform">
+
+            <fieldset>
+                <h2 class="fs-title">Create profile</h2>
+                <input type="text" name="Name" placeholder="Your Name" />
+                <textarea name="address" placeholder="Address"></textarea>
+                <input type="text" name="phone" placeholder=" Mobile Number" />
+                <input type="text" name="email" placeholder="Email" />
+            </fieldset>
+        </form>
+    </div>
+    <div class="col lg-5 col-md-5">
+        <form id="msform">
+            <fieldset>
+                <h2 class="fs-title">equipment Information</h2>
+
+                <label for="category" class="catedown">Select Product Category &nbsp;&nbsp;&nbsp;</label>
+                <select name="category" id="category">
+                    <option value="tractor">Tractors</option>
+                    <option value="trolley">Trolley</option>
+                    <option value="seeder">Seeder</option>
+                    <option value="harrow">Harrow</option>
+                    <option value="cultivator">Cultivator</option>
+                    <option value="spray">Spray Pump</option>
+                    <option value="harvester">Harvester</option>
+
+                </select>
+                <input type="text" name="Model" placeholder="Enter Model (Purchasing Year) " />
+                <textarea name="additional" placeholder=" Any additional information"></textarea>
+                <input type="text" name="price" placeholder="Enter Price " />
+
+
+
+
+
+                <a href="#" class="submit action-button" target="_top">Submit</a>
+
+            </fieldset>
+        </form>
+    </div>
+    <div class="col lg-1 col-md-1"></div>
 </div>
-
-
-
+</div>
